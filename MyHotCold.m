@@ -2,8 +2,7 @@ function h = MyHotCold(m)
 %   cian-blue-Black-red-yellow color map
 %   returns an M-by-3 matrix containing a custom colormap.suitable for 
 %   positive and negative value figures.
-%   HOT, is the same length as the current figure's
-%   colormap. If no figure exists, MATLAB creates one.
+%   If no figure exists, MATLAB creates one.
 %
 %   For example, to reset the colormap of the current figure:
 %
